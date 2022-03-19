@@ -4,6 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from "./components/navigation.js";
 
+import Home from "./components/home";
 import Login from "./components/login.js";
 
 
@@ -12,7 +13,8 @@ function App() {
 		<div className="App">
 			<Navigation/>
 			<Routes>
-				<Route path="/" element={<Login/>} />
+				<Route path="/" element={<Home/>} />
+				<Route path="/login" element={<Login/>} />
 			</Routes>
 		</div>
 	);
