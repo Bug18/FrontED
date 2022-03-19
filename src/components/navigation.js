@@ -2,12 +2,13 @@ import React from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navigation = () => {
 	return (
 		<Navbar expand="lg" bg="dark" variant="dark">
 			<Container fluid>
-				<Navbar.Brand>LED Controller</Navbar.Brand>
+				<Navbar.Brand>Building Manager</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav>
