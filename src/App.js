@@ -1,11 +1,5 @@
 import logo from './logo.svg';
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Routes,
-	Link
-} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import './App.css';
 import Navigation from "./components/navigation.js";
 
@@ -16,10 +10,9 @@ function App() {
 	return (
 		<div className="App">
 			<Navigation/>
-			<Login/>
-			{/*<Routes>
+			<Routes>
 				<Route path="/" element={<Login/>} />
-			</Routes>*/}
+			</Routes>
 		</div>
 	);
 }
