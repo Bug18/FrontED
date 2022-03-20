@@ -1,0 +1,34 @@
+@media all and (min-width: 300px){
+    #Home{
+        align-items: center;
+        justify-content: center;
+    }
+    #Title{
+        color : red;
+        opacity:initial;
+        margin-top: 5em;
+        font-family: "Lucida Console", "Courier New", monospace;
+
+    }
+    #Line{
+        opacity:initial;
+        margin-top:5em;
+        }
+
+    #pozadina{
+        height : 706px;
+        margin: 50px 2px 0px 40px;
+        padding: 10px;
+        height: 700px;
+        width: 100%;
+        background-color: lightgray;
+        color: black;
+
+
+
+
+    }
+
+}
+
+

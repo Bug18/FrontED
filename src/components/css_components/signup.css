@@ -1,0 +1,34 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+
+    #login-button{
+        margin-top: 2em;
+        background-color: red;
+        border-color: red;
+    }
+
+    .form-label{
+        font-size : medium;
+    }
+
+    .role-select{
+        margin-top: 2em;
+    }
+
+    .team-select{
+        margin-top: 2em;
+    }
+
+    #apply-team-name{
+        background-color: darkgreen;
+        border-color: darkgreen;
+        margin-top: 1em;
+    }
+}

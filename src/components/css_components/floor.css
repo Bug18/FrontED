@@ -1,0 +1,29 @@
+@media all and (min-width: 480px) {
+
+                    #prvaSoba{
+                          width: 40px;
+                          height: 30px;
+                          background-color: darkblue;
+                    }
+                    #drugaSoba{
+                        margin-left: 40px;
+                        width: 60px;
+                        height: 30px;
+                        background-color: darkred;
+
+                    }
+                    #trecaSoba{
+                        margin-top: 30px;
+                        width: 70px;
+                        height: 30px;
+                        background-color: darkgreen;
+
+                    }
+                    #cetvrtaSoba{
+                        margin-top: 30px;
+                        width: 30px;
+                        height: 30px;
+                        background-color: yellow;
+
+                    }
+}
